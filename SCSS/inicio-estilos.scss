@@ -1,0 +1,181 @@
+
+$c-morado-oscuro :#1a1a2e;
+$c-azul-oscuro :#16213e;
+$c-azul-claro : #0f3460;
+$c-rojo : #e94560;
+$c-blanco: #fff;
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    overflow-x: hidden ;
+    font-family: 'Times New Roman', Times, serif;
+        
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: $c-rojo;
+    border-radius: 5px;
+    border-right: 2px solid $c-azul-oscuro;
+}
+
+
+
+
+/**CABEZERA**/
+
+.contenedor-cabezera{
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+  padding: 5em;
+  background-color: $c-azul-oscuro;
+    .estructura-cabezera{
+        width: 90vw;
+        height: 40vh;
+        background-color: $c-morado-oscuro;
+        color: $c-blanco;
+        border: 1em solid $c-blanco;
+            .items-cabezera{
+                text-align: center;
+                padding-top: 5em;
+                    .cabezera-text{
+                        font-size: 4em;
+                        margin-bottom: 0.2em;
+                    }
+                    .cabezera-text::first-letter{
+                        color: $c-rojo;
+                    }
+                    .cabezera-descripcion{
+                        font-size: 2em;
+                    }
+                    .cabezera-descripcion::first-letter{
+                        color: $c-rojo;
+                    }
+                    .cabezera-mp3-contenedor{
+                        margin-top: 2em;
+                    }
+            }
+
+    }
+}
+
+/**informacion personal**/
+.secciones{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: $c-azul-oscuro;
+    color: $c-blanco;
+    padding-left: 4em;
+        .per-estructura{
+            width: 50vw;
+            height: 40vh;
+            border: $c-blanco solid 0.5em;
+            margin-right: 2em ;
+            background-color: $c-morado-oscuro;
+                .per-items{
+                    text-align: center;
+                    padding: 6em;
+                        .text-per{
+                            font-size: 3em;
+                            padding-bottom: 0.5em;
+                            
+                        }
+                        .text-per::first-letter{
+                            color: $c-rojo;
+                        }
+                        .descripcion-per{
+                            font-size: 1.2em;
+                            padding-top: 0.8em;
+                        }
+
+                        .red-social{
+                            padding-top: 2em;
+                            
+                            .facebook{
+                                font-size: 2em;
+                                color: #2cf;
+                                margin-right: 10px;
+                            }
+
+                            .youtube{
+                                font-size: 2em;
+                                color: #f11;
+                                margin-right: 10px;
+                            }
+                            
+                        }
+
+                }
+        }
+
+    /**formulario**/
+    .contenedor-form{
+        width: 40vw;
+        height: 40vh;
+        border: $c-blanco solid 0.5em;
+        background-color: $c-morado-oscuro;
+        
+            .estructura-form{
+                width: 35vw;
+                height: 35vh;
+                padding: 1.5em;
+                    .text-form{
+                        text-align: center;
+                        padding-bottom: 1em;
+                        font-size: 2em;
+                            
+                    }
+                    .text-form::first-letter{
+                        color: $c-rojo;
+                    }
+                    .items-form{
+                        width: 25vw;
+                        height: 25vh;
+                        background-color: $c-azul-oscuro;
+                        border: 0.2em solid $c-blanco;
+                        border-radius: 2em;
+                        margin-left: 6em;
+                        
+                            .items-input{
+                                margin-left: 8em;
+                                margin-top: 15px;
+                                border-radius: 1em;
+                                display: block;
+                                width: 20em;
+                                height: 2em;
+                                margin-bottom: 10px;
+                                        
+                            }
+
+                            .items-button{
+                                margin-left: 14em;
+                                margin-top: 15px;
+                                border-radius: 1em;
+                                display: block;
+                                width: 10em;
+                                height: 2em;
+                                margin-bottom: 10px;
+                                background-color: $c-rojo;
+                                color: $c-blanco;
+                            }
+                    }
+            }
+    }
+}
+
+
+
+
+
+
+

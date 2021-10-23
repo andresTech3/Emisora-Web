@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e94560;
+  border-radius: 5px;
+  border-right: 2px solid #16213e;
+}
+
+/**CABEZERA**/
+.contenedor-cabezera {
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+  padding: 5em;
+  background-color: #16213e;
+}
+.contenedor-cabezera .estructura-cabezera {
+  width: 90vw;
+  height: 40vh;
+  background-color: #1a1a2e;
+  color: #fff;
+  border: 1em solid #fff;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera {
+  text-align: center;
+  padding-top: 5em;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera .cabezera-text {
+  font-size: 4em;
+  margin-bottom: 0.2em;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera .cabezera-text::first-letter {
+  color: #e94560;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera .cabezera-descripcion {
+  font-size: 2em;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera .cabezera-descripcion::first-letter {
+  color: #e94560;
+}
+.contenedor-cabezera .estructura-cabezera .items-cabezera .cabezera-mp3-contenedor {
+  margin-top: 2em;
+}
+
+/**informacion personal**/
+.secciones {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  background-color: #16213e;
+  color: #fff;
+  padding-left: 4em;
+  /**formulario**/
+}
+.secciones .per-estructura {
+  width: 50vw;
+  height: 40vh;
+  border: #fff solid 0.5em;
+  margin-right: 2em;
+  background-color: #1a1a2e;
+}
+.secciones .per-estructura .per-items {
+  text-align: center;
+  padding: 6em;
+}
+.secciones .per-estructura .per-items .text-per {
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+.secciones .per-estructura .per-items .text-per::first-letter {
+  color: #e94560;
+}
+.secciones .per-estructura .per-items .descripcion-per {
+  font-size: 1.2em;
+  padding-top: 0.8em;
+}
+.secciones .per-estructura .per-items .red-social {
+  padding-top: 2em;
+}
+.secciones .per-estructura .per-items .red-social .facebook {
+  font-size: 2em;
+  color: #2cf;
+  margin-right: 10px;
+}
+.secciones .per-estructura .per-items .red-social .youtube {
+  font-size: 2em;
+  color: #f11;
+  margin-right: 10px;
+}
+.secciones .contenedor-form {
+  width: 40vw;
+  height: 40vh;
+  border: #fff solid 0.5em;
+  background-color: #1a1a2e;
+}
+.secciones .contenedor-form .estructura-form {
+  width: 35vw;
+  height: 35vh;
+  padding: 1.5em;
+}
+.secciones .contenedor-form .estructura-form .text-form {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+.secciones .contenedor-form .estructura-form .text-form::first-letter {
+  color: #e94560;
+}
+.secciones .contenedor-form .estructura-form .items-form {
+  width: 25vw;
+  height: 25vh;
+  background-color: #16213e;
+  border: 0.2em solid #fff;
+  border-radius: 2em;
+  margin-left: 6em;
+}
+.secciones .contenedor-form .estructura-form .items-form .items-input {
+  margin-left: 8em;
+  margin-top: 15px;
+  border-radius: 1em;
+  display: block;
+  width: 20em;
+  height: 2em;
+  margin-bottom: 10px;
+}
+.secciones .contenedor-form .estructura-form .items-form .items-button {
+  margin-left: 14em;
+  margin-top: 15px;
+  border-radius: 1em;
+  display: block;
+  width: 10em;
+  height: 2em;
+  margin-bottom: 10px;
+  background-color: #e94560;
+  color: #fff;
+}
